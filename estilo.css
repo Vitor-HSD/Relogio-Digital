@@ -27,6 +27,9 @@ body{
     height: 200px;
     width: 550px;
 
+    min-width: 350px;
+    max-width: 1000px;
+
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -62,6 +65,7 @@ footer{
     position: fixed;
     bottom: 0;
     font-family: 'Farro';
+    text-align: center;
     padding: 5px;
 }
 
