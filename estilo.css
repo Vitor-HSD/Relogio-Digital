@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(140deg, #e54875 22%, #e7ae31, #df359d, #8b5aaa);
+
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio{
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.753);
+
+    height: 200px;
+    width: 550px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.relogio div{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.589);
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 170px;
+    width: 150px;
+}
+
+.relogio span.num{
+    font-family: 'Graduate';
+    font-size: 3em;
+}
+
+.relogio span.tempo{
+    font-family: 'Farro';
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    font-family: 'Farro';
+    padding: 5px;
+}
+
+footer a{
+    color: white;
+
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color: black;
+    color: white;
+
+    text-decoration: underline;
+
+    border-radius: 5px;
+    padding: 5px;
+}
